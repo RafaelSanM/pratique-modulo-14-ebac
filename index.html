@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pratique - Módulo 14</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <img style="width: 150px; height: auto;" src="images/cafe.gif" alt="">
+            <h1 class="navbar-brand m-0 section-title fw-bold">Agência XPTO</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegação">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#quem-somos" class="nav-link">
+                            <i class="bi bi-house-exclamation"></i>
+                            Quem somos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#portfolio" class="nav-link">
+                            <i class="bi bi-laptop"></i>
+                            Portfólio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#serviços" class="nav-link">
+                            <i class="bi bi-gear"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="quem-somos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img style="width: 1920px; height: 700px" src="images/painel1.jpg"
+                            alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img style="width: 1920px; height: 700px" src="images/painel2.jpg" alt="Taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img style="width: 1920px; height: 700px" src="images/painel3.jpg"
+                            alt="Buffet de comida principal">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/agencia.jpeg" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title text-uppercase">Quem Somos | <span
+                                    class="text-colored">Agência</span></h2>
+                            <p>Somos uma agência de marketing digital, que tem como objetivo ajudar empresas, de todos
+                                os segmentos, a alcançar resultados online. Desenvolvemos estratégias personalizadas
+                                para que a sua empresa possa decolar e ter uma visibilidade real na internet. <br><br>
+                                Quer entender um pouco mais de como o marketing digital transformou o nosso dia a dia e
+                                como ele poderá mexer com a sua realidade, abaixo contamos um pouco. Temos certeza que
+                                você não irá se arrepender! <br><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ullam veritatis
+                                blanditiis nisi impedit minus voluptate, ab laudantium temporibus itaque ipsa laborum,
+                                necessitatibus ipsam debitis consequuntur. Id dignissimos asperiores quae!
+                                <br><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores, eius
+                                reiciendis perferendis explicabo earum sapiente officiis adipisci rem suscipit quod
+                                vero, sunt cumque dicta atque consectetur dolorum ab a! Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Doloribus illo sequi voluptate nulla expedita esse,
+                                delectus facere ullam, saepe quae excepturi maxime cumque ea eius repudiandae corporis.
+                                Ipsum, sequi tenetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-uppercase">Portfólio</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <h3 class="section-title text-colored fs-4">
+                            Websites e Apps
+                        </h3>
+                        <a href="#"><img
+                                src="images/Hermoso anuncio de maqueta de pantalla de computadora con diapositivas de presentación _ Archivo PSD Premium.jpeg"
+                                alt="" class="d-block w-100 rounded mb-2">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="section-title text-colored fs-4">
+                            Branding
+                        </h3>
+                        <a href="#"><img src="images/MacBook Screen Mock-Up 02.jpeg" class="d-block w-100 rounded mb-2">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="section-title text-colored fs-4">
+                            Loja Online
+                        </h3>
+                        <a href="#"><img src="images/Premium PSD _ Website presentation on pages mockup.jpeg"
+                                class="d-block w-100 rounded mb-2">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="section-title text-colored fs-4">
+                            Marketing Digital
+                        </h3>
+                        <a href="#"><img
+                                src="images/Hermoso anuncio de maqueta de pantalla de computadora con diapositivas de presentación _ Archivo PSD Premium.jpeg"
+                                class="d-block w-100 rounded mb-2">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="section-title text-colored fs-4">
+                            Fotografia
+                        </h3>
+                        <a href="#"><img src="images/MacBook Screen Mock-Up 02.jpeg" class="d-block w-100 rounded mb-2">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="section-title text-colored fs-4">
+                            Vídeo Marketing
+                        </h3>
+                        <a href="#"><img src="images/Premium PSD _ Website presentation on pages mockup.jpeg"
+                                class="d-block w-100 rounded mb-2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="serviços" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 text-uppercase">Conheça os nossos serviços
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-servicos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#web"
+                                class="fw-bold text-start nav-link text-colored active">Criação de Site |
+                                Desenvolvimento Web
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gestao-redes"
+                                class="fw-bold text-start nav-link text-colored">Gestão de Redes Sociais
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#seo"
+                                class="fw-bold text-start nav-link text-colored">Otimização de SEO
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#criação-publicitaria"
+                                class="fw-bold text-start nav-link text-colored">Criação Publicitária
+                                (Design e Produção Gráfica)
+                            </button>
+
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="web">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Profissionalismo</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Aumento de Visibilidade</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Presença Global</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Otimização Constante</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="gestao-redes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Público Qualificado</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Aumento das Vendas</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Gerenciamento Qualificado</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Fidelidade a Marca</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="seo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Primeiras Posições</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Credibilidade</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Empresa Atualizada</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Ciclo de Compra</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="criação-publicitaria">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">O que a Criação Publicitária pode ajudar na sua
+                                            empresa?</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Design de marca ou produção gráfica?</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="text-colored fw-bold">Qual a Importância de design profissional para
+                                            a sua marca?</h5>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Officia minus, iusto illum quisquam necessitatibus blanditiis aut quas saepe
+                                            atque non error inventore eum perferendis dicta exercitationem corporis sed
+                                            et quidem!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-uppercase mb-5">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                Ajudamos médias e grandes empresas com marketing digital e vendas
+                            </h3>
+                            <p>Com 10 anos de experiência em Growth e Inbound Marketing, já ajudamos mais de 200 empresas a executarem estratégias digitais de sucesso.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone
+                                    (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submmit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 55, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
